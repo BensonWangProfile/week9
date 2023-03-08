@@ -1,0 +1,35 @@
+:root{
+  --main-color:#3E5643;
+  --secondary-color:#EAF0ED;
+}
+h2{
+  font-size: 28px;
+  color: var(--main-color);
+}
+h3{
+  font-size: 24px;
+  color: var(--main-color);
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  .card{
+    background: var(--secondary-color);
+    height: 500px;
+    border-radius: 15px;
+  }
+  .card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+  }
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    margin-left: 5px;
+  }
+}

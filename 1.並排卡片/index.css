@@ -1,0 +1,54 @@
+body{
+  background-color: var(--main-color);
+}
+li{
+  list-style: none;
+}
+:root{
+  --main-color:#3E5643;
+  --secondary-color:#EAF0ED;
+}
+
+.container{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 33%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+}
+.title-box{
+  display: flex;
+  align-items: center;
+  height: 50%;
+}
+.title{
+  font-size: 40px;
+  color: var(--main-color);  
+  margin: 0 auto;  
+}
+.content-box{
+  height: 50%;
+  background: #fff;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.content-box-title{
+  color: var(--main-color);
+}
+
+
+
+
+
+.demo{
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background:url('./示範圖.png') no-repeat;
+  background-size:contain
+}

@@ -1,0 +1,53 @@
+:root{
+    --main-color:#3E5643;
+    --secondary-color:#EAF0ED;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+    color: var(--main-color);
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    color: var(--main-color);
+}
+
+.container{
+    display: flex;
+    .navbar{
+        background: var(--secondary-color);
+        padding: 20px;
+        width: 30%;
+        .logo{
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 70%;
+            }
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            li{
+                margin: 10px 0;
+            }
+        }
+    }
+    .section-info{
+        padding: 0 50px;
+        width: 50%;
+        .box-img{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -10px;
+            img{
+                margin: 10px 10px;
+            }
+        }
+    }
+}
